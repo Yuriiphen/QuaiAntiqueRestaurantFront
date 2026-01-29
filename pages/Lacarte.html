@@ -1,0 +1,210 @@
+
+<div class="hero-scene text-center text-white">
+    <div class="hero-scene-content">
+        <h1>La Carte</h1>
+    </div>
+</div>
+
+
+<div class="text-center pt-4 mt-5 mb-4">
+    <a href="/reserver" class="btn btn-primary" data-show="connected">Réserver</a>
+</div>
+
+<section class="menu-section py-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- COLONNE GAUCHE : Carte -->
+      <div class="col-lg-4 mb-4 order-1 order-lg-1">
+        <!-- Entrées -->
+        <h3 class="mb-4">Entrées</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Carpaccio de bœuf, copeau de parmesan</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+         <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Velouté de potimarron éclats de noisettes</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Tartare de saumon citronné et aneth</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Gaspacho de tomates et concombres</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+          
+        </ul>
+
+        <!-- Plats -->
+        <h3 class="mb-4">Plats</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Pavé de saumon, risotto au citron</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Magret de canard, sauce au miel</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Pâtes fraîches à la truffe et parmesan</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Curry de légumes et lait de coco</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+
+        </ul>
+
+        <!-- Desserts -->
+        <h3 class="mb-4">Fromages & Desserts</h3>
+        <ul class="list-group">
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Assiette de fromages affinés</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Panna cotta aux fruits rouges</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer ce plat" data-show ="connected">-</button>
+            <span class="flex-grow-1">Tarte aux pommes maison</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter ce plat" data-show ="connected">+</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- COLONNE CENTRALE : Votre Menu(si connecté)-->
+      <div class="col-lg-4 mb-4 order-3 order-lg-2" data-show="connected">
+        <div class="card">
+          <div class="card-header text-center">
+            <h4>Votre Menu</h4>
+          </div>
+          <div class="card-body">
+            <h6 class="text-center text-muted mt-5">Entrées</h6>
+            <hr>
+            <p class="text-dark text-center">Carpaccio de bœuf, copeaux de parmesan X1</p>
+            <p class="text-dark text-center">Gaspacho de tomates et concombre X1</p>
+            <h6 class="text-center text-muted mt-5">Plats</h6>
+            <hr>
+            <p class="text-dark text-center">Magret de canard, sauce miel et balsamique X2</p>
+            <h6 class="text-center text-muted mt-5">Desserts</h6>
+            <hr>
+            <p class="text-dark text-center">Panna cotta aux fruits rouges X2</p>
+            <h6 class="text-center text-muted mt-5">Vins</h6>
+            <hr>
+            <p class="text-dark text-center">Bordeaux - Médoc X1</p>
+          </div>
+          <div class="card-footer text-white text-end">
+            <strong>Total : ??? €</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- COLONNE CENTRALE : Votre Menu(si non connecté)-->
+      <div class="col-lg-4 mb-4 order-3 order-lg-2" data-show="disconnected">
+        <div class="card">
+          <div class="card-header">
+            <img src="../images/homard.jpg" class=" h-500 rounded w-100"/>
+
+            <a href="/signin" class="btn btn-primary mt-5 mb-5">Connectez-vous pour créer votre menu personnalisé !</a>
+
+            <img src="../images/plats.jpg" class=" h-500 rounded w-100"/>
+          </div>
+        </div>  
+      </div>
+
+
+      <!-- COLONNE DROITE : Vins -->
+      <div class="col-lg-4 mb-4 order-2 order-lg-3 text-justify">
+        <h3 class="mb-4 text-end">Vins rouges</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item text-end align-items-center gap-2 ">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Bordeaux - Médoc</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Bourgogne - Pinot Noir</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Languedoc - Minervois</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Italie - Chianti Classico</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+        </ul>
+
+        <h3 class="mb-4 text-end">Vins blancs & rosés</h3>
+        <ul class="list-group">
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Loire - Sancerre</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Italie - Pinot Grigio</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Côtes de Provence - Rosé</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Pays d'Oc - Rosé de Grenache</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+        </ul>
+
+        <h3 class="mb-4 mt-4 text-end">Bulles et Champagnes</h3>
+        <ul class="list-group">
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Champagne Brut Tradition</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Champagne Rosé</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+          <li class="list-group-item text-end align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-primary" aria-label="Retirer cette boisson" data-show ="connected">-</button>
+            <span class="flex-grow-1">Prosecco DOC (Italie)</span>
+            <button class="btn btn-sm btn-outline-primary" aria-label="Ajouter cette boisson" data-show ="connected">+</button>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="text-center">
+    <a href="/#" class="btn btn-primary" data-show="connected">Valider le menu</a>
+</div>
+
